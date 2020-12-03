@@ -1,0 +1,49 @@
+body
+{
+	font-family:sans-serif;
+	background-image:url(pillo.jpg.jpg);
+	background-repeat:no-repeat;
+	overflow:hidden;
+	background-size:cover;
+	
+}
+.Loginbox
+{
+	position:absolute;
+	top:60%;
+	left:60%;
+	transform:translate( -50%, -50%);
+	width:250px;
+	height:250px;
+	padding:10px 10px;
+	box-sizing:border-radius;
+	background:rgba(0,0,0,0.2);
+}
+h1
+{
+	margin:0;
+	padding:0;
+    text-align:center;
+}
+
+.Loginbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	font-size:16px;
+	background:rgb(255,38,126);
+	cursor:pointer;
+	border-radius:20px;
+	margin-left:90px;
+}
+.Loginbox input[type="submit"]:hover
+{
+	background:#efed40;
+	color:#262626;
+}
+	
+
+
+
+	
